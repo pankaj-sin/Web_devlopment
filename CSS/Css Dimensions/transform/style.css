@@ -1,0 +1,53 @@
+.box{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    transform: translate(10px, 120px);
+}
+.myspan{
+    border: 1px solid blue;
+    background-color: aqua;transform: translate(10px, 1200px);
+}
+.box1{
+    border: 1px solid salmon;
+    background-color: aqua;
+    transform: rotate(45deg) ;
+    margin: 200px;
+
+}
+.box2{
+    margin: 200px;
+    border: 1px solid salmon;
+    background-color: skyblue;
+    transform: rotate(-45deg);
+}
+.box3{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    margin: 50px;
+    transform: scale(2,3);
+}
+.box4{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    transform: translate(10px, 120px);
+}
+.box5{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    transform: translate(10px, 120px);
+}
+.box6{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    transform: translate(10px, 120px);
+}
+.box7{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    transform: translate(10px, 120px);
+}
+.box8{
+    border: 1px solid salmon;
+    background-color: cadetblue;
+    transform: translate(10px, 120px);
+}

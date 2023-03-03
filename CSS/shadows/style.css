@@ -1,0 +1,15 @@
+h1{
+    margin: auto;
+    text-shadow: 3px 3px 3px rgb(192, 192, 32);
+    text-shadow: 3px 3px 3px red, 5px 5px 5px cyan
+    ;
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 30px 40px;
+    box-shadow: 10px 10px 15px gold,12px 12px 15px rebeccapurple;
+    color: red;
+}

@@ -1,0 +1,21 @@
+.box{
+    max-height: 100px;
+    border:  2px solid black;
+    overflow: scroll;
+}
+.mydiv{
+    margin: 10px;
+    min-height: 100px;
+    border: 1px solid black;
+    min-height: 100px;
+}
+#div{
+    border: 2px solid blue;
+height: 50px;
+overflow: hidden;
+}
+.div2{border: 1pt solid rebeccapurple;
+height: 90px;
+margin: 100px;
+overflow:visible;
+}
