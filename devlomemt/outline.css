@@ -1,0 +1,91 @@
+h2 {
+    border: 2px dashed green;
+    outline-style: solid;
+    outline-offset: 10px;
+    color: blue;
+    background-color: red;
+    text-align: center;
+    text-align: justify; /*when we run the justify it does not make any change.It stretches out each line so that every one every line has equal width */
+    text-align-last: center;/*It only alings the the last line at centre*/
+}
+
+b.text {
+
+    vertical-align: top;
+    text-decoration: underline;
+    
+}
+
+h3 {
+    
+    text-decoration: line-through  purple solid 6px; /*all decoration syntax in one line*/
+     
+}
+
+h4 {
+
+    text-indent: 23px;
+    text-decoration: overline underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+    
+}
+
+a {
+text-indent: 12px;
+    text-decoration: none;
+}
+
+pre {
+    text-indent: 23px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p1 {
+    font-style: oblique;
+    font-weight: normal;
+    text-align: center;
+   
+}
+p2  {
+
+    font-size: large;
+}
+    table, th, td {
+
+        /*display: none;    hide the content ,it remove the paticular element from particular web page */ 
+        visibility: hidden;/*the  major difference between them that display none remove the element from the 
+        entire web page but visiblity hide the element from the webpage but not show it*/
+     border: 2px solid ;
+     width: 30%;
+
+     border-collapse: collapse;
+     
+    }
+
+    th ,td {
+       
+        padding: 10px;
+        height: 40px;
+    }
+td {
+
+    text-align: center;
+
+
+}
+
+tr:hover {
+
+    background-color: aqua;
+
+    
+}
+
+/*Display property in CSS it allows us to display a particular element,maybe hide the element Or even remove the
+element from the web page but the code is still present.*/

@@ -1,0 +1,29 @@
+● What is <!Doctype html> in Html5
+● What is difference between div and span in Html
+● What is semantic tags and non semantic tags in
+Html
+● What is difference between html and html5
+● What is Iframe tag in Html5
+● What are the formatting tags in html
+● What is difference <b> and <Strong> in html
+● What is view port attribute in html
+● What is attribute in html
+● What is block level element and inline element in
+html
+● What is difference between Html and Html5
+
+Css Interview Question
+
+● What is difference between css and css3
+● What are the selector in css
+● What is media query in css
+● What is different position in css
+● What is bom in css
+● What is difference between PX,unit,em,rem in
+css
+● What is flex box in css
+● What is pseudo selector in css
+● How to make website responsive
+● What are breakpoint for viewport responsive
+device
+● Why we use box-sizing in css

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is forms</title>
+        <link rel="icon" href="E:\Photo\Astjam.jpg">
+    </head>
+    <body>
+        <!--Form is a way we can collect input from user so when you collect the inputfrom a user these forms are mostly sent to like a server for you know processing or whatever the data is needed for example in your user and password then you click on submit and that data is being sent to a server that checks weather your username and password are actually in DB of user-->
+        <!-- we must use lable for input tag -->
+        <pre>
+            <form action="html5.htm" method="POST" target="_blank">
+                <label for="username">Name</label> <!--Here we had linkend input tag by lable using username -->
+                <input type="text" name="username" id="username">
+                <label for="password">password</label>
+                <input type="text" name="password" id="password">
+                <label for="School">School</label>
+                <input type="text" name="school" id="school" style="height: 25px; background-color:red">
+            <input type="submit" value="Send it" style="color: magenta">
+            </form>
+
+
+          <form action="html1.htm" method="POST" target="_blank">
+            <label for="checkbox">Ram</label>
+            <input type="checkbox" name="checkbox" id="checkbox" value="Ram">
+            <label for="checkbox1">Krishna</label>
+            <input type="checkbox" name="checkbox1" id="checkbox1" value="Krishna">
+            <input type="submit" value="Bhejo">
+          </form>
+
+          <form action="html2.htm" method="POST" target="_blank">
+            <label for="radiobutton">Jai</label>
+            <input type="radio" id="radiobutton" value="Jai">
+            <label for="radiobutton1">Shri</label>
+            <input type="radio" id=radiobutton1 name="radiobutton1" value="Shri">
+
+            <input type="submit" value="send">
+          </form>
+
+        </pre>
+    </body>
+</html>

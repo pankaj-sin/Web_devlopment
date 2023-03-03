@@ -1,0 +1,48 @@
+.dropdownbutton{
+
+    background-color:bisque;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown-menue {
+
+    display: none;
+    position: absolute;
+    background-color:lightblue ;
+    min-width: 50px;
+}
+
+.dropdown-menue a {
+    color: blanchedalmond;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown-menue a:hover {
+
+    background-color:black;
+
+}
+.dropdown:hover .dropdown-menue{
+    display: block;
+}
+.dropdown:hover .dropdownbutton{
+
+    background-color: grey;
+}
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+div[class+="test"]{
+    color: maroon;
+}

@@ -1,0 +1,71 @@
+/*Border in CSS is basically like a wrapper for a particular element */
+#o {
+
+    border-style: dotted;
+border-width: 2px;/*we also use medium, thick*/
+}
+
+#o1{
+    border-style: solid;
+    border-width: 10px 5px 11px 22px;
+}
+
+#o2{
+    border-style: groove;
+    border-width: 10px 12px;/*This will take top and bottom width*/
+    padding: 40px;
+}
+
+#o3 {
+    border-style: dashed;
+    border-color: cyan;
+    border-style: inset;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 10  px;    
+}
+#o4 {
+
+    border-style: double;border-color: aqua goldenrod silver purple;
+}
+
+#o5 {                 /*we know when we specify the border bottom mean border style the color , the size etc all of that we 
+    we can just do every thing a once,suppose I want border left instead of saying border left then I am now going to say border color and border 
+    width what I can just do first say  border-left: 10px dash purple*/
+
+    border-style: ridge;
+border-left: 10px dashed royalblue;
+}
+
+#o6 {
+    border-style: outset; /*putting  rounded border for that we use border-radius: ;radius withe value*/
+    border-radius: 10px;
+}
+#o7 {
+    /*padding is use to create space around a text inside any border, we use padding for all four sides  */
+    border-style: inset;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#o8{
+    border-style: dashed double dotted solid;/*This border style for all the four sides*/
+    padding: 40px 10px 20px 30px;
+}
+
+h1 {
+
+    height: 4
+    0px;
+    width: 30%;  /*we do not know how large anybody screen is , So to get rid of that problem and let it just be all
+    be all the way to the end of the screen what I just need to do is to use percentage .So when I use 100% 
+    it contain then its according to the screen on which that particular code is run*/
+    background-color: purple;
+}
+
+h2 {
+
+    outline-style: solid;
+}

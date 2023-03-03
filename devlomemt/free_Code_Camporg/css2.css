@@ -1,0 +1,51 @@
+
+
+
+#by {                            /* id are written in always with # keep in mind*/
+     
+    opacity: 0.9; /*we also set opacity or making more transparent for that we use opacity declaration*/
+background-image: url("friends.jpg");
+
+}
+
+*{
+    text-shadow: 100%;
+}
+
+/*Margins are use in css to create spaces around elements*/
+/*we also compress these four line codes in a single line as simply margin:50px 50px 50px 50px 50px; */
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ #secd {
+margin: 60px 70px;  /*This is top and bottom margin*/
+font-family: 'Times New Roman', Times, serif; 
+font-style: oblique;
+}
+
+#third{
+    margin: 50px;/*This set all four margin up to 50px*/
+font-feature-settings: "abvm";
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+b {
+    margin-top: 40;
+    text-transform: uppercase;
+}
+
+/*Another way to set margin is  inherit ,since the p tag is under this b
+ tag means we can inherit this margin from the b tag so if I want to specify margin from top and I do not want to actually like start writing I can just in 
+ in input inherit is going to have the same margin top asthis b tag
+ */
+
+#four{
+
+
+    margin-top: inherit;
+}
+

@@ -1,0 +1,36 @@
+/* This is CSS Comment  selectors are thoses before the { } braces under these curley braces there are decleractions with their key value pairs */
+/* Selectos select html elements that we want to style*/ 
+/* This changes the background color of body */
+/* we also can use id as a slector .This id have to be declear in html file*/
+
+/* id are written in always with # keep in mind*/
+#by {
+    background-color: aqua;
+}
+#he {
+    color:cyan;
+}
+
+/*To create another selector by using class then use dot "." before the name of selector in css */
+
+/*if we write element name before "." of class name in selector defnition, then it show only style effect on that particular element */
+
+p.heading {
+    color: greenyellow;
+}
+
+/*Universal selector that affects every single element in HTML page,This selector have very good use case because you might just ne nuilding a page and we want that page to all the text should be in the center you canuse this to do it right*/
+
+*{
+
+    color: blueviolet;
+text-align-last: center;
+}
+
+/*Grouping selector To avoid the reapting the same particular declaration for two different elements then we use grouping selectors as follow
+*/
+
+h2,h3 {
+
+    text-indent: 92px;
+}

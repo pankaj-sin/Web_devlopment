@@ -1,0 +1,20 @@
+h1 >  b{   /*Here b  is Descendant selector,Here example mean that h1 going to slect all tags in side it*/
+
+color: brown; /*Decendent slector select all elements in side it.*/
+
+}
+
+/*Adjacent sibling selector thid just basicallly selects ,use plus to note this 
+but thid selects all the adjacent Bafter an H1 if I run this you're gonna see that none of 
+it is red now*/
+
+h2 + pre {  
+
+    color:red;
+}
+
+/*Follows Slectors */
+h3 ~ b{
+
+    color: blueviolet;
+}
